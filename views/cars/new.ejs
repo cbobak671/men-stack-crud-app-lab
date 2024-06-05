@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Park a Car</title>
+    <style>
+      body {
+        background-image: url(https://images.unsplash.com/photo-1698131788967-e303d69bd053?q=80&w=1287&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+      }
+    </style>
+    <link rel="stylesheet" href="/style.css">
+  </head>
+  <body>
+    <h1>Park a New Car</h1>
+    <form action="/cars" method="POST">
+      <label for="makeModel">Car make and model:</label>
+      <input type="text" name="makeModel" id="makeModel" />
+      <br />
+      <br />
+      <label for="year">Model year</label>
+      <input type="text" name="year" id="year" />
+      <br />
+      <br />
+      <label for="color">Color</label>
+      <input type="text" name="color" id="color" />
+      <br />
+      <br />
+      <label for="type">Car type</label>
+      <input type="text" name="type" id="type" />
+      <br />
+      <br />
+      <label for="isReadyToPark">Ready to Park?</label>
+      <input type="checkbox" name="isReadyToPark" id="isReadyToPark" />
+      <br />
+      <br />
+      <button type="submit">Park Car</button>
+    </form>
+    <br>
+    <br>
+    <a href="/cars/">Back to Your Garage</a>
+  </body>
+</html>
